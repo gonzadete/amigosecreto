@@ -13,8 +13,6 @@
 
 let amigos = [];
 
-//document.getElementById('adicionar').addEventListener('click', function(){
-
 function agregarAmigo(){
     let nombre = document.getElementById('amigo').value;
     if(nombre == ""){
